@@ -30,7 +30,8 @@ $this->params['breadcrumbs'][] = $this->title;
         <?php endif; ?>
     </p>
 
-    <?php else: ?>
+    <?php else {
+    : ?>
 
     <p>
         If you have business inquiries or other questions, please fill out the following form to contact us. Thank you.
@@ -38,7 +39,9 @@ $this->params['breadcrumbs'][] = $this->title;
 
     <div class="row">
         <div class="col-lg-5">
-            <?php $form = ActiveForm::begin(['id' => 'contact-form']); ?>
+            <?php $form = ActiveForm::begin(['id' => 'contact-form']);
+}
+?>
                 <?= $form->field($model, 'name') ?>
                 <?= $form->field($model, 'email') ?>
                 <?= $form->field($model, 'subject') ?>
