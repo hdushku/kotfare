@@ -7,7 +7,7 @@ use app\assets\AppAsset;
 
 /* @var $this \yii\web\View */
 /* @var $content string */
-
+raoul2000\bootswatch\BootswatchAsset::$theme = 'readable';
 AppAsset::register($this);
 ?>
 <?php $this->beginPage() ?>
