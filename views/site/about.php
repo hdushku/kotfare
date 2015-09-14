@@ -37,3 +37,17 @@ echo SideNav::widget([
         ],
     ],
 ]);
+?>
+
+<?= \imanilchaudhari\rrssb\ShareBar::widget([
+        'title' => 'Title Content', // i.e. $model->title
+        'url' => Yii::$app->request->absoluteUrl, 
+        'networks' => [
+            'Email' => [],
+            'Facebook' => [],
+            'Twitter' => [],
+            'GooglePlus' => [],
+            'LinkedIn' => []
+            ]
+    ]); 
+?>

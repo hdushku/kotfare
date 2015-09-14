@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "8b00c8971d48fc371ff40d6fe69ec0de",
+    "hash": "783fd3f1d514fd7755bda2f2913dca90",
     "packages": [
         {
             "name": "2amigos/yii2-dosamigos-asset-bundle",
@@ -625,6 +625,50 @@
                 "yii2"
             ],
             "time": "2015-02-15 15:55:23"
+        },
+        {
+            "name": "imanilchaudhari/yii2-rrssb",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ImAnilChaudhari/yii2-rrssb.git",
+                "reference": "2842c0f67267e3f2d10dfd9c20c86ad9baad7f2d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ImAnilChaudhari/yii2-rrssb/zipball/2842c0f67267e3f2d10dfd9c20c86ad9baad7f2d",
+                "reference": "2842c0f67267e3f2d10dfd9c20c86ad9baad7f2d",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0",
+                "yiisoft/yii2": "*"
+            },
+            "type": "yii2-extension",
+            "autoload": {
+                "psr-4": {
+                    "imanilchaudhari\\rrssb\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Anil Chaudhari",
+                    "email": "caanil90@gmail.com"
+                }
+            ],
+            "description": "This is a responsive social bar widget for Yii2 projects. ",
+            "keywords": [
+                " extension",
+                " rrssb",
+                " share bar",
+                " social share",
+                "yii2"
+            ],
+            "time": "2015-09-09 20:13:33"
         },
         {
             "name": "kartik-v/bootstrap-fileinput",
@@ -3167,7 +3211,8 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "mootensai/yii2-enhanced-gii": 20
+        "mootensai/yii2-enhanced-gii": 20,
+        "imanilchaudhari/yii2-rrssb": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,

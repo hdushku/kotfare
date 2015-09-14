@@ -25,7 +25,8 @@
         "robloach/component-installer": "*",
         "raoul2000/yii2-bootswatch-asset": "*",
         "himiklab/yii2-recaptcha-widget": "*",
-        "mootensai/yii2-enhanced-gii": "dev-master"
+        "mootensai/yii2-enhanced-gii": "dev-master",
+        "imanilchaudhari/yii2-rrssb": "dev-master"
     },
     "require-dev": {
         "yiisoft/yii2-codeception": "*",
