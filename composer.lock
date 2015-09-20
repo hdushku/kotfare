@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "783fd3f1d514fd7755bda2f2913dca90",
+    "hash": "90c27f5bad6d3411ab92e833b14f4655",
     "packages": [
         {
             "name": "2amigos/yii2-dosamigos-asset-bundle",
@@ -127,6 +127,126 @@
                 "yii2"
             ],
             "time": "2015-04-12 22:21:58"
+        },
+        {
+            "name": "2amigos/yii2-leaflet-extension",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/2amigos/yii2-leaflet-extension.git",
+                "reference": "857022c0d0d90dd97253ef9722bb2ead5ba0abc1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/2amigos/yii2-leaflet-extension/zipball/857022c0d0d90dd97253ef9722bb2ead5ba0abc1",
+                "reference": "857022c0d0d90dd97253ef9722bb2ead5ba0abc1",
+                "shasum": ""
+            },
+            "require": {
+                "bower-asset/leaflet": "0.7.*@stable",
+                "yiisoft/yii2": "~2.0.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "4.*"
+            },
+            "type": "yii2-extension",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                },
+                "asset-installer-paths": {
+                    "bower-asset-library": "vendor/bower"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "dosamigos\\leaflet\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "2amigOS! Consulting Group",
+                    "email": "hola@2amigos.us",
+                    "homepage": "http://2amigos.us",
+                    "role": "Developer"
+                }
+            ],
+            "description": "LeafLet Mobile-Friendly Interactive Maps Extension Library for Yii2.",
+            "keywords": [
+                "2amigos",
+                "extension",
+                "leaflet",
+                "maps",
+                "widget",
+                "yii",
+                "yii2"
+            ],
+            "time": "2015-03-28 11:15:06"
+        },
+        {
+            "name": "2amigos/yii2-leaflet-geosearch-plugin",
+            "version": "1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/2amigos/yii2-leaflet-geosearch-plugin.git",
+                "reference": "2b61abfbd779c3c5dafb74d0df30d3053432b3c1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/2amigos/yii2-leaflet-geosearch-plugin/zipball/2b61abfbd779c3c5dafb74d0df30d3053432b3c1",
+                "reference": "2b61abfbd779c3c5dafb74d0df30d3053432b3c1",
+                "shasum": ""
+            },
+            "require": {
+                "2amigos/yii2-leaflet-extension": "~1.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "4.*"
+            },
+            "type": "yii2-extension",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                },
+                "asset-installer-paths": {
+                    "bower-asset-library": "vendor/bower"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "dosamigos\\leaflet\\plugins\\geosearch\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "2amigOS! Consulting Group",
+                    "email": "hola@2amigos.us",
+                    "homepage": "http://2amigos.us",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Yii2 LeafLet Plugin to provide support for address lookup (a.k.a. geocoding / geoseaching) to Leaflet.",
+            "homepage": "http://yiiwheels.com/extension/leaflet-geosearch-plugin",
+            "keywords": [
+                "2amigos",
+                "extension",
+                "leaflet",
+                "maps",
+                "plugin",
+                "widget",
+                "yii",
+                "yii 2",
+                "yii2"
+            ],
+            "time": "2015-03-31 10:50:25"
         },
         {
             "name": "airani/yii2-bootstrap-rtl",
@@ -419,6 +539,43 @@
             ]
         },
         {
+            "name": "bower-asset/leaflet",
+            "version": "v0.7.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Leaflet/Leaflet.git",
+                "reference": "76f74943b843271d94129d491ec67408dc23de9a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Leaflet/Leaflet/zipball/76f74943b843271d94129d491ec67408dc23de9a",
+                "reference": "76f74943b843271d94129d491ec67408dc23de9a",
+                "shasum": ""
+            },
+            "type": "bower-asset-library",
+            "extra": {
+                "bower-asset-main": [
+                    "dist/leaflet.css",
+                    "dist/leaflet-src.js",
+                    "dist/images/layers-2x.png",
+                    "dist/images/layers.png",
+                    "dist/images/marker-icon-2x.png",
+                    "dist/images/marker-icon.png",
+                    "dist/images/marker-shadow.png"
+                ],
+                "bower-asset-ignore": [
+                    ".*",
+                    "CHANGELOG.json",
+                    "FAQ.md",
+                    "debug",
+                    "spec",
+                    "src",
+                    "build"
+                ]
+            },
+            "description": "JavaScript library for mobile-friendly interactive maps"
+        },
+        {
             "name": "bower-asset/punycode",
             "version": "v1.3.2",
             "source": {
@@ -584,6 +741,46 @@
             "time": "2013-11-30 08:25:19"
         },
         {
+            "name": "harrytang/yii2-fineuploader",
+            "version": "1.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/harrytang/yii2-fineuploader.git",
+                "reference": "78df8165ee9d9fb870d1cda98fa45b16c28dfa5e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/harrytang/yii2-fineuploader/zipball/78df8165ee9d9fb870d1cda98fa45b16c28dfa5e",
+                "reference": "78df8165ee9d9fb870d1cda98fa45b16c28dfa5e",
+                "shasum": ""
+            },
+            "require": {
+                "yiisoft/yii2": "*"
+            },
+            "type": "yii2-extension",
+            "autoload": {
+                "psr-4": {
+                    "harrytang\\fineuploader\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Harry Tang",
+                    "email": "giaduy@gmail.com"
+                }
+            ],
+            "description": "Yii2 Fine Uploader",
+            "keywords": [
+                "extension",
+                "yii2"
+            ],
+            "time": "2015-07-02 03:30:12"
+        },
+        {
             "name": "himiklab/yii2-recaptcha-widget",
             "version": "1.0.4",
             "source": {
@@ -632,12 +829,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ImAnilChaudhari/yii2-rrssb.git",
-                "reference": "2842c0f67267e3f2d10dfd9c20c86ad9baad7f2d"
+                "reference": "35f53625f6541f828cc950ed63e4323efff5bdee"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ImAnilChaudhari/yii2-rrssb/zipball/2842c0f67267e3f2d10dfd9c20c86ad9baad7f2d",
-                "reference": "2842c0f67267e3f2d10dfd9c20c86ad9baad7f2d",
+                "url": "https://api.github.com/repos/ImAnilChaudhari/yii2-rrssb/zipball/35f53625f6541f828cc950ed63e4323efff5bdee",
+                "reference": "35f53625f6541f828cc950ed63e4323efff5bdee",
                 "shasum": ""
             },
             "require": {
@@ -668,20 +865,20 @@
                 " social share",
                 "yii2"
             ],
-            "time": "2015-09-09 20:13:33"
+            "time": "2015-09-15 19:08:24"
         },
         {
             "name": "kartik-v/bootstrap-fileinput",
-            "version": "v4.2.6",
+            "version": "v4.2.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/kartik-v/bootstrap-fileinput.git",
-                "reference": "e4906dd5ee852a5333d3ce4d19f69ee855efe844"
+                "reference": "0468bbba9c28c1250aca83eba9b33e32ec135f78"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kartik-v/bootstrap-fileinput/zipball/e4906dd5ee852a5333d3ce4d19f69ee855efe844",
-                "reference": "e4906dd5ee852a5333d3ce4d19f69ee855efe844",
+                "url": "https://api.github.com/repos/kartik-v/bootstrap-fileinput/zipball/0468bbba9c28c1250aca83eba9b33e32ec135f78",
+                "reference": "0468bbba9c28c1250aca83eba9b33e32ec135f78",
                 "shasum": ""
             },
             "type": "library",
@@ -716,7 +913,7 @@
                 "progress",
                 "upload"
             ],
-            "time": "2015-08-26 18:42:44"
+            "time": "2015-09-13 17:39:44"
         },
         {
             "name": "kartik-v/bootstrap-star-rating",
@@ -1625,16 +1822,16 @@
         },
         {
             "name": "kartik-v/yii2-widget-select2",
-            "version": "v2.0.2",
+            "version": "v2.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/kartik-v/yii2-widget-select2.git",
-                "reference": "585e8797d7982e0c9d09370b98b451a028a59439"
+                "reference": "e72880e7e8dfc845c112ed7df275bf1c929be6db"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kartik-v/yii2-widget-select2/zipball/585e8797d7982e0c9d09370b98b451a028a59439",
-                "reference": "585e8797d7982e0c9d09370b98b451a028a59439",
+                "url": "https://api.github.com/repos/kartik-v/yii2-widget-select2/zipball/e72880e7e8dfc845c112ed7df275bf1c929be6db",
+                "reference": "e72880e7e8dfc845c112ed7df275bf1c929be6db",
                 "shasum": ""
             },
             "require": {
@@ -1669,7 +1866,7 @@
                 "widget",
                 "yii2"
             ],
-            "time": "2015-07-01 15:20:59"
+            "time": "2015-09-12 19:56:48"
         },
         {
             "name": "kartik-v/yii2-widget-sidenav",
@@ -2560,16 +2757,16 @@
         },
         {
             "name": "symfony/process",
-            "version": "v2.7.3",
+            "version": "v2.7.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/Process.git",
-                "reference": "48aeb0e48600321c272955132d7606ab0a49adb3"
+                "reference": "f7b3f73f70a7f8f49a1c838dc3debbf054732d8e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/Process/zipball/48aeb0e48600321c272955132d7606ab0a49adb3",
-                "reference": "48aeb0e48600321c272955132d7606ab0a49adb3",
+                "url": "https://api.github.com/repos/symfony/Process/zipball/f7b3f73f70a7f8f49a1c838dc3debbf054732d8e",
+                "reference": "f7b3f73f70a7f8f49a1c838dc3debbf054732d8e",
                 "shasum": ""
             },
             "require": {
@@ -2605,7 +2802,7 @@
             ],
             "description": "Symfony Process Component",
             "homepage": "https://symfony.com",
-            "time": "2015-07-01 11:25:50"
+            "time": "2015-08-27 06:45:45"
         },
         {
             "name": "thomaspark/bootswatch",

@@ -26,7 +26,9 @@
         "raoul2000/yii2-bootswatch-asset": "*",
         "himiklab/yii2-recaptcha-widget": "*",
         "mootensai/yii2-enhanced-gii": "dev-master",
-        "imanilchaudhari/yii2-rrssb": "dev-master"
+        "imanilchaudhari/yii2-rrssb": "dev-master",
+        "harrytang/yii2-fineuploader": "*",
+        "2amigos/yii2-leaflet-geosearch-plugin" : "~1.0"
     },
     "require-dev": {
         "yiisoft/yii2-codeception": "*",
