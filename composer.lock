@@ -4,7 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "90c27f5bad6d3411ab92e833b14f4655",
+    "hash": "bad77b24e0839b31f62c5b6075b70c8c",
+    "content-hash": "fef9ea4816f2075e5fcf9064384ce537",
     "packages": [
         {
             "name": "2amigos/yii2-dosamigos-asset-bundle",
@@ -604,6 +605,50 @@
             }
         },
         {
+            "name": "bower-asset/slick-carousel",
+            "version": "1.5.8",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/kenwheeler/slick.git",
+                "reference": "66a9ee8f01a0d8e56f959b17ce70ed1a27ebfdee"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/kenwheeler/slick/zipball/66a9ee8f01a0d8e56f959b17ce70ed1a27ebfdee",
+                "reference": "66a9ee8f01a0d8e56f959b17ce70ed1a27ebfdee",
+                "shasum": ""
+            },
+            "require": {
+                "bower-asset/jquery": ">=1.7"
+            },
+            "type": "bower-asset-library",
+            "extra": {
+                "bower-asset-main": [
+                    "slick/slick.min.js",
+                    "slick/slick.css",
+                    "slick/slick-theme.css",
+                    "slick/fonts/*"
+                ],
+                "bower-asset-ignore": [
+                    "**/.*",
+                    "node_modules",
+                    "bower_components",
+                    "test",
+                    "tests",
+                    "index.html"
+                ]
+            },
+            "license": [
+                "MIT"
+            ],
+            "description": "the last carousel you'll ever need",
+            "keywords": [
+                "carousel",
+                "jquery",
+                "responsive"
+            ]
+        },
+        {
             "name": "bower-asset/yii2-pjax",
             "version": "v2.0.4",
             "source": {
@@ -695,6 +740,49 @@
                 "markdown-extra"
             ],
             "time": "2015-03-06 05:28:07"
+        },
+        {
+            "name": "evgeniyrru/yii2-slick",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/EvgeniyRRU/yii2-slick.git",
+                "reference": "cc49cc2c7fdcb968fad7cb011ca7a484c6b500ee"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/EvgeniyRRU/yii2-slick/zipball/cc49cc2c7fdcb968fad7cb011ca7a484c6b500ee",
+                "reference": "cc49cc2c7fdcb968fad7cb011ca7a484c6b500ee",
+                "shasum": ""
+            },
+            "require": {
+                "bower-asset/slick-carousel": "*",
+                "yiisoft/yii2": "*"
+            },
+            "type": "yii2-extension",
+            "autoload": {
+                "psr-4": {
+                    "evgeniyrru\\yii2slick\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Evgeniy Chernyshev",
+                    "email": "EvgeniyRRU@gmail.com"
+                }
+            ],
+            "description": "Yii2 extension for Slick Carousel",
+            "keywords": [
+                "carousel",
+                "extension",
+                "widget",
+                "yii"
+            ],
+            "time": "2015-02-16 21:56:58"
         },
         {
             "name": "ezyang/htmlpurifier",
@@ -917,16 +1005,16 @@
         },
         {
             "name": "kartik-v/bootstrap-star-rating",
-            "version": "v3.5.3",
+            "version": "v3.5.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/kartik-v/bootstrap-star-rating.git",
-                "reference": "bd9c52db6ac71cb270620c1aee601d142ab2cc00"
+                "reference": "987777ee21a599bebbc545c743063fcee9833842"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kartik-v/bootstrap-star-rating/zipball/bd9c52db6ac71cb270620c1aee601d142ab2cc00",
-                "reference": "bd9c52db6ac71cb270620c1aee601d142ab2cc00",
+                "url": "https://api.github.com/repos/kartik-v/bootstrap-star-rating/zipball/987777ee21a599bebbc545c743063fcee9833842",
+                "reference": "987777ee21a599bebbc545c743063fcee9833842",
                 "shasum": ""
             },
             "type": "library",
@@ -954,7 +1042,7 @@
                 "jquery",
                 "star"
             ],
-            "time": "2015-06-18 14:42:46"
+            "time": "2015-09-21 09:06:33"
         },
         {
             "name": "kartik-v/dependent-dropdown",

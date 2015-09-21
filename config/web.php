@@ -60,6 +60,12 @@ $config = [
         'db' => require(__DIR__.'/db.php'),
     ],
     'params' => $params,
+    'params' => [
+        'baseUrl' => 'http://localhost/kotfare',
+        //'adminEmail' => 'email@company.com',
+        //'supportEmail' => 'email@company.com',
+        //'user.passwordResetTokenExpire' => 3600
+     ]
 ];
 
 if (YII_ENV_DEV) {
