@@ -29,7 +29,9 @@
         "imanilchaudhari/yii2-rrssb": "dev-master",
         "harrytang/yii2-fineuploader": "*",
         "evgeniyrru/yii2-slick" : "*",
-        "2amigos/yii2-leaflet-geosearch-plugin" : "~1.0"
+        "2amigos/yii2-leaflet-geosearch-plugin" : "~1.0",
+        "loveorigami/yii2-slimscroll-widget": "*",
+        "cornernote/yii2-dashboard": "*"
     },
     "require-dev": {
         "yiisoft/yii2-codeception": "*",

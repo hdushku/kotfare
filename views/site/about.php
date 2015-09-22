@@ -2,6 +2,7 @@
 use yii\helpers\Html;
 use kartik\sidenav\SideNav;
 use app\components\YoutubeWidget;
+use lo\widgets\SlimScroll;
 
 /* @var $this yii\web\View */
 $this->title = 'About';
@@ -89,3 +90,13 @@ echo SideNav::widget([
     "h"=>"450px",
     ]) ?>
 
+<?= SlimScroll::widget([
+    'options'=>[
+        'height'=>'250px'
+    ]
+]); 
+?>
+<p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam rhoncus, felis interdum condimentum consectetur, nisl libero elementum eros, vehicula congue lacus eros non diam. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus mauris lorem, lacinia id tempus non, imperdiet et leo. Cras sit amet erat sit amet lacus egestas placerat. Aenean ultricies ultrices mauris ac congue
+</p>
+<?= SlimScroll::end(); ?>
