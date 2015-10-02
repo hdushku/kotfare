@@ -25,6 +25,10 @@ $config = [
                     'text' => 'cornernote\dashboard\panels\TextPanel',
                 ],
             ],
+            'sliderrevolution' => [
+                'class' => 'wadeshuler\sliderrevolution\SliderModule',
+                'pluginLocation' => '@app/views/site/rs-plugin',    // <-- path to your rs-plugin directory
+            ],
         ],
     'components' => [
         
@@ -80,7 +84,10 @@ $config = [
         //'adminEmail' => 'email@company.com',
         //'supportEmail' => 'email@company.com',
         //'user.passwordResetTokenExpire' => 3600
-     ]
+     ],
+    'aliases' => [
+        '@files' => 'http://localhost/kotfare/web/uploads/',
+        ],
 ];
 
 if (YII_ENV_DEV) {

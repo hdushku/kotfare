@@ -4,8 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "94e31217392e39570badd04c045afff0",
-    "content-hash": "1d87cd1554904ac8338e3d6b5f2757d8",
+    "hash": "deea76edfe70c3f4dc6de36776b878d9",
     "packages": [
         {
             "name": "2amigos/yii2-dosamigos-asset-bundle",
@@ -442,6 +441,55 @@
                 "Unlicensed Public Domain"
             ],
             "description": "Right-to-left (RTL) theme for Twitter Bootstrap 3.x"
+        },
+        {
+            "name": "bower-asset/fotorama",
+            "version": "4.6.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/artpolikarpov/fotorama-bower.git",
+                "reference": "bc05ef11b5cd307fd46d50e269abf8c8808fa4e5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/artpolikarpov/fotorama-bower/zipball/bc05ef11b5cd307fd46d50e269abf8c8808fa4e5",
+                "reference": "bc05ef11b5cd307fd46d50e269abf8c8808fa4e5",
+                "shasum": ""
+            },
+            "require": {
+                "bower-asset/jquery": ">=1.8"
+            },
+            "type": "bower-asset-library",
+            "extra": {
+                "bower-asset-main": [
+                    "fotorama.css",
+                    "fotorama.js"
+                ],
+                "bower-asset-ignore": [
+                    "**/.*",
+                    "node_modules",
+                    "bower_components",
+                    "test",
+                    "tests"
+                ]
+            },
+            "license": [
+                "MIT"
+            ],
+            "description": "A simple, stunning, powerful jQuery gallery.",
+            "keywords": [
+                "carousel",
+                "content",
+                "fotorama",
+                "gallery",
+                "image",
+                "photo",
+                "responsive",
+                "slider",
+                "slideshow",
+                "ui",
+                "video"
+            ]
         },
         {
             "name": "bower-asset/jquery",
@@ -2569,6 +2617,55 @@
             "time": "2015-08-26 17:09:42"
         },
         {
+            "name": "metalguardian/yii2-fotorama-widget",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/MetalGuardian/yii2-fotorama-widget.git",
+                "reference": "d1f3b7f120126a848aa2a78efd2783170f2edc33"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/MetalGuardian/yii2-fotorama-widget/zipball/d1f3b7f120126a848aa2a78efd2783170f2edc33",
+                "reference": "d1f3b7f120126a848aa2a78efd2783170f2edc33",
+                "shasum": ""
+            },
+            "require": {
+                "bower-asset/fotorama": "4.*",
+                "yiisoft/yii2": "*"
+            },
+            "type": "yii2-extension",
+            "extra": {
+                "asset-installer-paths": {
+                    "bower-asset-library": "vendor/bower"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "metalguardian\\fotorama\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Ivan Pushkin",
+                    "email": "imetalguardi+yii2@gmail.com"
+                }
+            ],
+            "description": "fotorama image gallery yii2 widget",
+            "homepage": "https://github.com/MetalGuardian/yii2-fotorama-widget",
+            "keywords": [
+                "extension",
+                "fotorama",
+                "widget",
+                "yii2"
+            ],
+            "time": "2015-04-19 16:14:51"
+        },
+        {
             "name": "mootensai/yii2-enhanced-gii",
             "version": "dev-master",
             "source": {
@@ -3080,7 +3177,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thomaspark/bootswatch/zipball/913f54b9483b99fa12c7feccfa18ee5cc0206043",
+                "url": "https://api.github.com/repos/thomaspark/bootswatch/zipball/ceb6bc5d80af9c7905b54ac4146339e6b1c68490",
                 "reference": "913f54b9483b99fa12c7feccfa18ee5cc0206043",
                 "shasum": ""
             },
@@ -3127,6 +3224,50 @@
             ],
             "description": "Themes for Bootstrap",
             "time": "2015-09-03 20:39:50"
+        },
+        {
+            "name": "wadeshuler/yii2-sliderrevolution",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/WadeShuler/yii2-sliderrevolution.git",
+                "reference": "e11f6d472ae0573d6926b567e5fa2af697cd0162"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/WadeShuler/yii2-sliderrevolution/zipball/e11f6d472ae0573d6926b567e5fa2af697cd0162",
+                "reference": "e11f6d472ae0573d6926b567e5fa2af697cd0162",
+                "shasum": ""
+            },
+            "require": {
+                "yiisoft/yii2": "*"
+            },
+            "type": "yii2-extension",
+            "autoload": {
+                "psr-4": {
+                    "wadeshuler\\sliderrevolution\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Wade Shuler",
+                    "email": "WadeShuler@users.noreply.github.com"
+                }
+            ],
+            "description": "Yii2 Slider Revolution jQuery Wrapper Extension",
+            "keywords": [
+                "extension",
+                "revolution",
+                "slider",
+                "sliderrevolution",
+                "wadeshuler",
+                "yii2"
+            ],
+            "time": "2015-09-26 03:11:15"
         },
         {
             "name": "yiisoft/yii2",
@@ -3675,7 +3816,8 @@
     "minimum-stability": "stable",
     "stability-flags": {
         "mootensai/yii2-enhanced-gii": 20,
-        "imanilchaudhari/yii2-rrssb": 20
+        "imanilchaudhari/yii2-rrssb": 20,
+        "wadeshuler/yii2-sliderrevolution": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,

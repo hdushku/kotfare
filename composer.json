@@ -31,7 +31,9 @@
         "evgeniyrru/yii2-slick" : "*",
         "2amigos/yii2-leaflet-geosearch-plugin" : "~1.0",
         "loveorigami/yii2-slimscroll-widget": "*",
-        "cornernote/yii2-dashboard": "*"
+        "cornernote/yii2-dashboard": "*",
+        "wadeshuler/yii2-sliderrevolution": "@dev",
+        "metalguardian/yii2-fotorama-widget": "*"
     },
     "require-dev": {
         "yiisoft/yii2-codeception": "*",
