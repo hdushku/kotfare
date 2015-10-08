@@ -1,13 +1,44 @@
 <?php
 /* @var $this yii\web\View */
+use yii\helpers\Html;
+use evgeniyrru\yii2slick\Slick;
+use yii\web\JsExpression;
+
+
 $this->title = 'My Yii Application';
 ?>
 <div class="site-index">
 
     <div class="jumbotron">
-        <h1>Congratulations!</h1>
+        <?=Slick::widget([
 
-        <p class="lead">You have successfully created your Yii-powered application.</p>
+        // HTML tag for container. Div is default.
+        'itemContainer' => 'div',
+
+        // HTML attributes for widget container
+        'containerOptions' => ['class' => 'container'],
+
+        // Items for carousel. Empty array not allowed, exception will be throw, if empty 
+        'items' => [
+            Html::img(Yii::$app->params['baseUrl'] .'/uploads/n1.jpg', ['width'=>'450','height'=>'300'],['alt' => 'image']),
+            Html::img(Yii::$app->params['baseUrl'] .'/uploads/n2.jpg', ['width'=>'450','height'=>'300'],['alt' => 'image2']),
+            Html::img(Yii::$app->params['baseUrl'] .'/uploads/n3.jpg', ['width'=>'450','height'=>'300'],['alt' => 'image3']),
+            //Html::img('/cat_gallery/cat_005.png'),
+        ],
+
+        // HTML attribute for every carousel item
+        'itemOptions' => ['class' => 'cat-image'],
+
+        // settings for js plugin
+        // @see http://kenwheeler.github.io/slick/#settings
+        'clientOptions' => [
+            'autoplay' => true,
+            'dots'     => true,
+            // note, that for params passing function you should use JsExpression object
+            'onAfterChange' => new JsExpression('function() {console.log("The cat has shown")}'),
+        ],
+
+    ]); ?>
 
         <p><a class="btn btn-lg btn-success" href="http://www.yiiframework.com">Get started with Yii</a></p>
     </div>
